@@ -9,6 +9,7 @@ setup(
     description="A small package",
     author="hgoe_hoge_bar",
     packages=find_packages(),
+    py_modules=["sample_hoge.lib"],
     install_requires=install_requirements,
     entry_points={
         "console_scripts": [
